@@ -7,6 +7,13 @@ pickup and delivery cities, weight of the load, trucker's name and company, DOT 
 
 ### Team Members:
 - Jacob Chase
+- Ethan Raborn
+- Josiah Doucet
+- Cong Zong
+- Alvin Donaldson
+- Johnathan Lagarrigue
+- Elliot Fontenot
+- Kevin Montero
 
 
 

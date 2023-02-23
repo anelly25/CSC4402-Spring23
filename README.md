@@ -16,6 +16,7 @@ pickup and delivery cities, weight of the load, trucker's name and company, DOT 
 - Elliot Fontenot (Programmer)
 - Kevin Montero (Programmer)
 - Ashton Nelson (Programmer)
+- Mingyang Li (Programmer)
 
 
 

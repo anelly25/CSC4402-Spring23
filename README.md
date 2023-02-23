@@ -6,6 +6,7 @@ pickup and delivery cities, weight of the load, trucker's name and company, DOT 
 
 
 ### Team Members:
+- Marshall McCurdy
 - Jacob Chase
 - Ethan Raborn
 - Josiah Doucet
@@ -14,6 +15,7 @@ pickup and delivery cities, weight of the load, trucker's name and company, DOT 
 - Johnathan Lagarrigue
 - Elliot Fontenot
 - Kevin Montero
+- Ashton Nelson
 
 
 

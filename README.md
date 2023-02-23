@@ -6,17 +6,16 @@ pickup and delivery cities, weight of the load, trucker's name and company, DOT 
 
 
 ### Team Members:
-- Marshall McCurdy
-- Jacob Chase
-- Ethan Raborn
-- Josiah Doucet
-- Cong Zong
-- Alvin Donaldson
-- Johnathan Lagarrigue
-- Elliot Fontenot
-- Kevin Montero
-- Ashton Nelson
-- Mingyang Li
+- Marshall McCurdy (Project Manager)
+- Jacob Chase (Web Dev)
+- Ethan Raborn (Programmer)
+- Josiah Doucet (Programmer)
+- Cong Zong (Programmer)
+- Alvin Donaldson (Programmer
+- Johnathan Lagarrigue (UI dev)
+- Elliot Fontenot (Programmer)
+- Kevin Montero (Programmer)
+- Ashton Nelson (Programmer)
 
 
 

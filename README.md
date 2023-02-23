@@ -8,7 +8,7 @@ This group project aims to create a web application load board for shippers and 
 - Ethan Raborn (Programmer)
 - Josiah Doucet (Programmer)
 - Cong Zong (Programmer)
-- Alvin Donaldson (Programmer
+- Alvin Donaldson (FrontEnd Dev)
 - Johnathan Lagarrigue (UI dev)
 - Elliot Fontenot (Programmer)
 - Kevin Montero (Programmer)

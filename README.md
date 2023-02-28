@@ -14,7 +14,7 @@ This group project aims to create a web application load board for shippers and 
 - Kevin Montero (Programmer)
 - Ashton Nelson (Programmer)
 - Mingyang Li (Programmer)
-
+- Max Morris (Database Design & Backend Dev)
 
 
 

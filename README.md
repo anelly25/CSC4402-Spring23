@@ -19,4 +19,33 @@ This group project aims to create a web application load board for shippers and 
 
 
 ### Technologies Used:
-TBD
+- HTML
+- CSS
+- JavaScript
+- React
+- Node.js
+- MySQL
+
+### How to Run:
+- Clone the repository
+- Run `npm install` in the root directory if you do not have the node modules installed
+
+``` 
+cd CSC 4402-Spring23
+npm start
+```
+
+If you have 
+``` react-scripts not recognized ```
+run
+``` npm install react-scripts --save ```
+then
+``` npm start ```
+
+For IntelliJ users, you need to configure Run configurations
+- Click on the dropdown next to the green play button
+- Click on Edit Configurations
+- Click on the plus sign and select npm
+- Name the configuration "start"
+- In the command line field, type "start"
+- Click apply and then OK

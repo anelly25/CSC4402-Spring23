@@ -42,7 +42,7 @@ run
 then
 ``` npm start ```
 
-For IntelliJ users, you need to configure Run configurations
+#### For IntelliJ users, you need to configure Run configurations
 - Click on the dropdown next to the green play button
 - Click on Edit Configurations
 - Click on the plus sign and select npm

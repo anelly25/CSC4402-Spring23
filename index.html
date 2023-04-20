@@ -1,0 +1,254 @@
+<!DOCTYPE html>
+<head>
+  <link rel="shortcut icon" type="image" href="images/PixelTruck.png" />
+  <title>Trucker</title>
+  <style>
+    body {
+      background-color: darkgrey;
+      height: 100vh;
+      width: 99vw;
+    }
+    li {
+      display: inline-block;
+      font-weight: bold;
+    }
+    .header {
+      position: absolute;
+      top: -10px;
+      left: 110px;
+      font-size: 26pt;
+      font-family: fantasy;
+    }
+    #about-us {
+      text-align: center;
+    }
+    #banner {
+      position: absolute;
+      top: 0;
+      left: 0;
+      background-color: grey;
+      width: 100%;
+      border: 1px solid;
+    }
+    #banner_content {
+      width: 800px;
+      margin: 0 auto;
+      padding: 10px;
+    }
+    #monologue {
+      text-align: center;
+      margin-left: 40%;
+    }
+    #logo {
+      width: 65px;
+      height: 40px;
+      position: absolute;
+      top: 17px;
+      left: 27px;
+    }
+    #login {
+      color: black;
+      text-decoration: underline;
+      position: absolute;
+      right: 150px;
+      top: 35px;
+    }
+    #signup {
+      color: black;
+      text-decoration: underline;
+      position: absolute;
+      right: 40px;
+      top: 35px;
+    }
+    * {
+      box-sizing: border-box;
+    }
+
+    /* Slideshow container */
+    .slideshow-container {
+      max-width: 800px;
+      position: relative;
+      margin-top: 10%;
+      margin-left: 10%;
+    }
+
+    /* Hide the images by default */
+    .mySlides {
+      display: none;
+    }
+
+    /* Caption text */
+    .text {
+      color: #f2f2f2;
+      font-size: 48px;
+      padding: 8px;
+      position: absolute;
+      width: 100%;
+      bottom: 24px;
+      text-align: left;
+      font-display: bolder;
+      margin-bottom: 8%;
+      margin-left: 120px;
+      text-shadow: 4px 8px 8px #000;
+    }
+    .subtext {
+      color: #f2f2f2;
+      font-size: 26px;
+      padding: 8px;
+      position: absolute;
+      width: 100%;
+      bottom: -5px;
+      text-align: left;
+      font-display: bold;
+      margin-bottom: 8%;
+      margin-left: 120px;
+      text-shadow: 2px 4px 4px #000;
+    }
+
+    /* Number text (1/3 etc) */
+    .numbertext {
+      color: #f2f2f2;
+      font-size: 12px;
+      padding: 8px 12px;
+      position: absolute;
+      top: 0;
+    }
+    #picture {
+      width: 800px;
+      height: 500px;
+      margin-left: 120px;
+      margin-top: -4%;
+    }
+
+    /* The dots/bullets/indicators */
+    .dot {
+      cursor: pointer;
+      height: 15px;
+      width: 15px;
+      margin-top: -25%;
+      margin-right: 16%;
+      background-color: #bbb;
+      border-radius: 50%;
+      float: right;
+      transition: background-color 0.6s ease;
+    }
+
+    .active {
+      background-color: #717171;
+    }
+
+    /* Fading animation */
+    .fade {
+      animation-name: fade;
+      animation-duration: 1.5s;
+    }
+    .info {
+      position: absolute;
+      bottom: -35%;
+      left: 0;
+      background-color: whitesmoke;
+      width: 100%;
+      padding-bottom: 200px;
+      box-shadow: 18px 3px 18px black;
+    }
+    #map {
+      width: 500px;
+      position: absolute;
+      left: 15px;
+    }
+
+    @keyframes fade {
+      from {
+        opacity: 0.4;
+      }
+      to {
+        opacity: 1;
+      }
+    }
+  </style>
+</head>
+<body>
+  <div id="banner">
+    <div id="banner_content">
+      <a href="index.html"><img id="logo" src="images/globe.png" /> </a>
+      <h2 class="header">Truckers Anonymous</h2>
+      <ul>
+        <li><a id="login" href="login.html">LOG IN</a></li>
+        <li><a id="signup" href="signup.html">SIGN UP</a></li>
+      </ul>
+    </div>
+  </div>
+  <!-- Slideshow container -->
+  <div class="slideshow-container">
+    <!-- Full-width images with number and caption text -->
+    <div class="mySlides fade">
+      <img id="picture" src="images/truck1.jpeg" />
+      <div>
+        <h1 class="text">Move your <br />shipments easily.</h1>
+      </div>
+    </div>
+
+    <div class="mySlides fade">
+      <img id="picture" src="images/truck2.png" />
+      <div>
+        <h1 class="text">Caption Two</h1>
+        <p class="subtext">Subtext Two</p>
+      </div>
+    </div>
+
+    <div class="mySlides fade">
+      <img id="picture" src="images/truck3.png" />
+      <div>
+        <h1 class="text">Caption Three</h1>
+        <p class="subtext">Subtext Three</p>
+      </div>
+    </div>
+  </div>
+  <br />
+
+  <div>
+    <span></span> <br />
+    <span class="dot"></span> <br />
+    <span class="dot"></span> <br />
+    <span class="dot"></span> <br />
+  </div>
+  <div class="info">
+    <h1 id="about-us">Filler:</h1>
+    <img id="map" src="images/usa.jpeg" />
+    <p id="monologue">
+      Truckers Anonymous is a web application load board for shippers and
+      carriers in the trucking industry, utilizing a database to provide a
+      simplified and user-friendly interface for accessing a wealth of
+      information. This platform will contain important information such as
+      pickup and delivery cities, weight of the load, trucker's name and
+      company, DOT number, cost, distance, truck length, and type of load. By
+      using this system, truck drivers will be able to view delivery
+      information, including status, and sign up for their preferred choices.
+      This will simplify the complex logistics process in the transportation
+      industry.
+    </p>
+  </div>
+</body>
+<script>
+  let slideIndex = 0;
+  showSlides();
+
+  function showSlides() {
+    let i;
+    let slides = document.getElementsByClassName("mySlides");
+    let dots = document.getElementsByClassName("dot");
+    for (i = 0; i < slides.length; i++) {
+      slides[i].style.display = "none";
+    }
+    slideIndex++;
+    if (slideIndex > slides.length) {
+      slideIndex = 1;
+    }
+    for (i = 0; i < dots.length; i++) {
+      dots[i].className = dots[i].className.replace(" active", "");
+    }
+    slides[slideIndex - 1].style.display = "block";
+    dots[slideIndex - 1].className += " active";
+    setTimeout(showSlides, 6000);
+  }
+</script>

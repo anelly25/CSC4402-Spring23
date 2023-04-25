@@ -53,15 +53,15 @@ INSERT INTO `trucks_delivering` VALUES ('janesmith@example.com', '2023-04-23 09:
 INSERT INTO `trucks_delivering` VALUES ('johntaylor@example.com', '2023-04-24 14:00:00', 8, 'Refrigerated', 'Atlanta', 'GA', 'San Francisco', 'CA', 3000, 12000, 'Full Truckload', NULL);
 
 
-INSERT INTO `trucks_delivering VALUES ('janetaylor@example.com', '2023-04-25 10:00:00', 7, 'Flatbed', 'Phoenix', 'AZ', 'Denver', 'CO', 800, 6000, 'Full Truckload', NULL);
-INSERT INTO `trucks_delivering VALUES ('jimjones@example.com', '2023-04-26 08:00:00', 10, 'Dry Van', 'Dallas', 'TX', 'Chicago', 'IL', 1000, 8000, 'Full Truckload', NULL);
-INSERT INTO `trucks_delivering VALUES ('janejones@example.com', '2023-04-27 12:00:00', 8, 'Flatbed', 'Los Angeles', 'CA', 'New York', 'NY', 2800, 14000, 'Full Truckload', NULL);
-INSERT INTO `trucks_delivering VALUES ('johnbrown@example.com', '2023-04-28 15:00:00', 6, 'Refrigerated', 'Houston', 'TX', 'Miami', 'FL', 1200, 9000, 'Full Truckload', NULL);
-INSERT INTO `trucks_delivering VALUES ('janebrown@example.com', '2023-04-29 09:00:00', 7, 'Dry Van', 'Seattle', 'WA', 'Atlanta', 'GA', 2700, 11000, 'Full Truckload', NULL);
-INSERT INTO `trucks_delivering VALUES ('johndavis@example.com', '2023-04-30 14:00:00', 9, 'Flatbed', 'Denver', 'CO', 'Phoenix', 'AZ', 800, 7000, 'Full Truckload', NULL);
-INSERT INTO `trucks_delivering VALUES ('janedavis@example.com', '2023-05-01 10:00:00', 11, 'Dry Van', 'Chicago', 'IL', 'Seattle', 'WA', 2200, 10000, 'Full Truckload', NULL);
-INSERT INTO `trucks_delivering VALUES ('johncarter@example.com', '2023-05-02 08:00:00', 8, 'Refrigerated', 'San Francisco', 'CA', 'Boston', 'MA', 3000, 13000, 'Full Truckload', NULL);
-INSERT INTO `trucks_delivering VALUES ('janecarter@example.com', '2023-05-03 12:00:00', 7, 'Flatbed', 'Dallas', 'TX', 'Los Angeles', 'CA', 1400, 8000, 'Full Truckload', NULL);
-INSERT INTO `trucks_delivering VALUES ('johnwhite@example.com', '2023-05-04 15:00:00', 9, 'Dry Van', 'Atlanta', 'GA', 'Miami', 'FL', 700, 5000, 'Full Truckload', NULL);
-INSERT INTO `trucks_delivering VALUES ('janewhite@example.com', '2023-05-05 09:00:00', 6, 'Refrigerated', 'New York', 'NY', 'Houston', 'TX', 1600, 10000, 'Full Truckload', NULL);
+INSERT INTO `trucks_delivering` VALUES ('janetaylor@example.com', '2023-04-25 10:00:00', 7, 'Flatbed', 'Phoenix', 'AZ', 'Denver', 'CO', 800, 6000, 'Full Truckload', NULL);
+INSERT INTO `trucks_delivering` VALUES ('jimjones@example.com', '2023-04-26 08:00:00', 10, 'Dry Van', 'Dallas', 'TX', 'Chicago', 'IL', 1000, 8000, 'Full Truckload', NULL);
+INSERT INTO `trucks_delivering` VALUES ('janejones@example.com', '2023-04-27 12:00:00', 8, 'Flatbed', 'Los Angeles', 'CA', 'New York', 'NY', 2800, 14000, 'Full Truckload', NULL);
+INSERT INTO `trucks_delivering` VALUES ('johnbrown@example.com', '2023-04-28 15:00:00', 6, 'Refrigerated', 'Houston', 'TX', 'Miami', 'FL', 1200, 9000, 'Full Truckload', NULL);
+INSERT INTO `trucks_delivering` VALUES ('janebrown@example.com', '2023-04-29 09:00:00', 7, 'Dry Van', 'Seattle', 'WA', 'Atlanta', 'GA', 2700, 11000, 'Full Truckload', NULL);
+INSERT INTO `trucks_delivering` VALUES ('johndavis@example.com', '2023-04-30 14:00:00', 9, 'Flatbed', 'Denver', 'CO', 'Phoenix', 'AZ', 800, 7000, 'Full Truckload', NULL);
+INSERT INTO `trucks_delivering` VALUES ('janedavis@example.com', '2023-05-01 10:00:00', 11, 'Dry Van', 'Chicago', 'IL', 'Seattle', 'WA', 2200, 10000, 'Full Truckload', NULL);
+INSERT INTO `trucks_delivering` VALUES ('johncarter@example.com', '2023-05-02 08:00:00', 8, 'Refrigerated', 'San Francisco', 'CA', 'Boston', 'MA', 3000, 13000, 'Full Truckload', NULL);
+INSERT INTO `trucks_delivering` VALUES ('janecarter@example.com', '2023-05-03 12:00:00', 7, 'Flatbed', 'Dallas', 'TX', 'Los Angeles', 'CA', 1400, 8000, 'Full Truckload', NULL);
+INSERT INTO `trucks_delivering` VALUES ('johnwhite@example.com', '2023-05-04 15:00:00', 9, 'Dry Van', 'Atlanta', 'GA', 'Miami', 'FL', 700, 5000, 'Full Truckload', NULL);
+INSERT INTO `trucks_delivering` VALUES ('janewhite@example.com', '2023-05-05 09:00:00', 6, 'Refrigerated', 'New York', 'NY', 'Houston', 'TX', 1600, 10000, 'Full Truckload', NULL);
 SET FOREIGN_KEY_CHECKS = 1;

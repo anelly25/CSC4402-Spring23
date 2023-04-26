@@ -6,7 +6,7 @@ import LoadTablePage from "./pages/LoadTablePage";
 function App() {
   return (
     <>
-      <div className="pa ge">
+      <div className="page">
         <Router>
           <Routes>
             <Route index element={<Home />} />\

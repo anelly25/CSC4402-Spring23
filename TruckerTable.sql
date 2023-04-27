@@ -19,7 +19,6 @@ USE TRUCKER;
 -- ALTER USER 'root'@'localhost' IDENTIFIED WITH mysql_native_password BY ''; --Insert SQl password to get to post information on board
 SET NAMES utf8mb4;
 SET FOREIGN_KEY_CHECKS = 0;
-
 -- ----------------------------
 -- Table structure for trucks_delivering
 -- ----------------------------

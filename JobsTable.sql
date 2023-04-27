@@ -12,4 +12,7 @@ CREATE TABLE `job_assignments` (
 );
 
 -- Sample Data:
-INSERT INTO job_assignments VALUES (5, 1);
+INSERT INTO job_assignments (JobId, AssignedUserId)
+SELECT td.UniqueJobId, u.UniqueUserId
+FROM trucks_delivering td
+INNER JOIN users u ON SUBSTRING_INDEX(td.email, '@', 1) = u.username

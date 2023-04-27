@@ -10,4 +10,9 @@ CREATE TABLE `users` (
 );
 
 -- Sample Data:
-INSERT INTO users VALUES ('JohnDoe255', 'super_secret_hashed_password', NULL);
+
+
+INSERT IGNORE INTO users (username, HashedPassword) 
+SELECT SUBSTRING_INDEX(email, '@', 1) as username,
+'examplePassword' as HashedPassword
+FROM trucks_delivering;

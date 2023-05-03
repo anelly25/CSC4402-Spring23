@@ -1,0 +1,72 @@
+.AppointmentWrapper {
+    background: #461d7c;
+    position: relative;
+    margin-top: 1rem;
+    padding: 4rem;
+    border-radius: 10px;
+    width: 50%;
+    position: relative;
+    left: 25%;
+  }
+  
+  .AppointmentWrapper h1{
+    color: white;
+  }
+
+  .list{
+    color: white;
+    background-color: Grey;
+    border-radius: 20px;
+  }
+
+  .AppointmentForm {
+    width: 100%;
+    background-color: white;
+    border-radius: 10px;
+  }
+  
+  .appointment-input {
+    outline: none;
+    background: transparent;
+    border: 1px solid Black;
+    padding: .5rem 2rem;
+    margin-top: 2rem;
+    margin-bottom: 4rem;
+    width: 300px;
+  }
+  
+  .appointment-input::placeholder {
+    color: black;
+  }
+  
+  .appointment-btn {
+    background: #8758ff;
+    color: #fff;
+    border: none;
+    padding: 0.55rem;
+    cursor: pointer;
+    
+  }
+  
+  .appointment {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: white;
+    color: #fff;
+    padding: 0.75rem 1rem;
+    border-radius: 5px;
+    margin-bottom: 1rem;
+    cursor: pointer;
+  }
+  
+
+  .fa-trash {
+    margin-left: 0.75rem;
+  }
+  
+  .completed {
+    color: #c5aeff;
+    text-decoration: line-through;
+  }
+   
